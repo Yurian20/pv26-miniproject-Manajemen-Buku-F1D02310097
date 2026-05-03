@@ -1,0 +1,83 @@
+QWidget {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Segoe UI;
+    font-size: 13px;
+}
+
+/* Input fields */
+QLineEdit, QComboBox, QSpinBox {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+QSpinBox::up-button, QSpinBox::down-button {
+    width: 16px;
+}
+
+/* Tombol */
+QPushButton {
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+/* Tombol Simpan (hijau) */
+QPushButton#btn_tambah {
+    background-color: #2ecc71;
+}
+QPushButton#btn_tambah:hover {
+    background-color: #27ae60;
+}
+
+/* Tombol Hapus (merah) */
+QPushButton#btn_hapus {
+    background-color: #e74c3c;
+}
+QPushButton#btn_hapus:hover {
+    background-color: #c0392b;
+}
+
+/* Tombol Refresh (biru) */
+QPushButton#btn_refresh {
+    background-color: #3498db;
+}
+QPushButton#btn_refresh:hover {
+    background-color: #2980b9;
+}
+
+/* Tabel */
+QTableWidget {
+    border: 1px solid #ccc;
+    background-color: white;
+    gridline-color: #e0e0e0;
+}
+
+/* Header tabel abu kebiruan */
+QHeaderView::section {
+    background-color: #b0c4de;  /* Abu kebiruan */
+    color: black;
+    padding: 6px;
+    border: 1px solid #a0b8cc;
+    font-weight: bold;
+}
+
+QTableWidget::item:focus {
+    outline: none;
+}
+
+QTableWidget::item:selected {
+    background-color: #d9e4f5;
+    color: black;
+}
+QMessageBox QPushButton {
+    background-color: #3498db;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
