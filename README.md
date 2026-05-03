@@ -64,7 +64,7 @@ Proyek ini dibagi menjadi beberapa file untuk memudahkan pengelolaan:
     ```
 
 ## Identitas Pengembang
-* **Nama:** YURIAN FATHUUR FAJAR
+* **Nama:** YURIAN FATHUR FAJAR
 * **NIM:** F1D02310097
 * **Program Studi:** Teknik Informatika
 * **Universitas:** Universitas Mataram
